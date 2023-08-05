@@ -8,7 +8,7 @@ let muffinMan = prompt("Do you know the muffin man?");
 if (muffinMan == "yes") alert("I bet his muffins are better than the Rock's")
 else alert("I'd sure like to meet him");
 let theFair = prompt("Are you going to Scarborough fair?");
-if (theFair = "yes") alert("I'll see you there!")
+if (theFair == "yes") alert("I'll see you there!")
 else alert("Yeah sounds lame.");
 let funnyPage = prompt("Did this page make you laugh?");
 if (funnyPage == "yes") alert("my work here is finished")
