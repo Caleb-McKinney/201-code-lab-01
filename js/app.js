@@ -6,7 +6,7 @@ if (greeting == "yes") alert("That's right!"); else alert("Sorry, wrong answer."
 
 let codeSchool = prompt("Do I have kids?");
 //console.log(codeSchool + "," + alert + "You're right I have 2.");
-if (codeSchool == "yes") alert("You're I have 2."); else alert("Wrong answer, I have 2 kids.");
+if (codeSchool == "yes") alert("You're right, I have 2."); else alert("Wrong answer, I have 2 kids.");
 
 let muffinMan = prompt("Can i cook?");
 //console.log(muffinMan + "," + alert + "Sure can and my kids say it's good.");
