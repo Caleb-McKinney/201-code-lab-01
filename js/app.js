@@ -1,5 +1,8 @@
 "use strict";
 
+let welcome = prompt("Welcome, What is your name?");
+alert (welcome + ", welcome to my page");
+
 let greeting = prompt("Am I a baseball fan?'");
 //console.log(greeting + "," + alert + "That's right");
 if (greeting == "yes") alert("That's right!"); else alert("Sorry, wrong answer.");
@@ -20,4 +23,6 @@ let funnyPage = prompt("Do you like Dad jokes?");
 //console.log(funnyPage + "," + alert + "good, carry on");
 if (funnyPage == "yes") alert("good, carry on my wayward son."); else alert("Please try again.");
 
-alert("Thank you for your participation.");
+alert(welcome + ", Thank you for your participation");
+
+
