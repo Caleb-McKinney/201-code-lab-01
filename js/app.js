@@ -42,3 +42,49 @@ if (funnyPage == "yes" || funnyPage == "y") {
   alert("Please try again.");
 }
 alert(userName + ", Thank you for your participation");
+
+let pickaNumber = 4;
+let yourGuess;
+
+while (pickaNumber !== yourGuess) {
+  yourGuess = prompt("guess a number between 1 and 10");
+  yourGuess = parseInt(yourGuess);
+
+  if (yourGuess < pickaNumber) {
+    alert("Too low, try again!");
+  } else if (yourGuess > pickaNumber) {
+    alert("Too high, guess again.");
+  } else if (yourGuess === pickaNumber) {
+    alert("That's right! The answer was " + pickaNumber);
+    yourPoints++;
+  }
+}
+
+let tries = 4
+
+triesLeft: while (tries !==0){
+  tries --;
+  yourGuess = prompt("Try to guess the number!");
+}
+
+let colorsArray = [
+  "green",
+  "blue",
+  "red",
+  "pink",
+  "brown",
+  "gray",
+];
+let guesses = 6;
+
+hasGuesses; while (guesses !==0) {
+  guesses--;
+  letGuess = prompt("Guess one of our favorite colors");
+
+  for (let i = 0; i < colorsArray.length; i++) {
+    if (letGUess ===) colorsArray[i]) {
+      alert("Correct! " + colorsArray[i]) + " is a great color";
+      break hasGuesses;
+    }
+  }
+
