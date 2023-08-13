@@ -3,12 +3,16 @@ body {
 }
 header {
   background-color: #2b2d42;
-  margin: 50px;
+  margin: 0px;
+  padding: 30px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Joshua_Tree_National_Park_Night_Sky.jpg/1200px-Joshua_Tree_National_Park_Night_Sky.jpg?20190326020633")
 }
 
 h1 {
   text-align: center;
   color: #ef233c;
+  margin: 20px;
+  padding: 20px;
 }
 
 h3 {
@@ -20,9 +24,16 @@ p {
   text-align: center;
   color: #d90429;
 }
+
 ul {
   text-align: center;
   color: #d90429;
+  margin-left: 100px;
+  list-style: none;
+}
+
+#myvacations {
+text-align: center;
 }
 
 h5 {
@@ -32,5 +43,8 @@ h5 {
 
 footer {
   background-color: #2b2d42;
-  margin: 50px;
+  margin: 0px;
+  padding: 20px;
+  font-size: medium;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Joshua_Tree_National_Park_Night_Sky.jpg/1200px-Joshua_Tree_National_Park_Night_Sky.jpg?20190326020633")
 }
