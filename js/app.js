@@ -5,7 +5,7 @@ alert(userName + ", welcome to my page");
 
 if (userName) {
   let yourPoints = 0;
-
+function baseballQuestion(){
   let greeting = prompt("Am I a baseball fan?'").toLowerCase();
   //console.log(greeting + "," + alert + "That's right");
   if (greeting == "yes" || greeting == "y") {
@@ -16,6 +16,10 @@ if (userName) {
     //console.log("Sorry, wrong answer.");
     alert("Sorry, wrong answer.");
   }
+}
+baseballQuestion();
+
+function kidsQuestion(){
   let anyKids = prompt("Do I have kids?").toLowerCase();
   //console.log(codeSchool + "," + alert + "You're right I have 2.");
   if (anyKids == "yes" || anyKids == "y") {
@@ -24,6 +28,10 @@ if (userName) {
   } else {
     alert("Wrong answer, I have 2 kids.");
   }
+}
+kidsQuestion();
+
+function cookQuestion(){
   let muffinMan = prompt("Can i cook?").toLowerCase();
   //console.log(muffinMan + "," + alert + "Sure can and my kids say it's good.");
   if (muffinMan == "yes" || muffinMan == "y") {
@@ -32,7 +40,10 @@ if (userName) {
   } else {
     alert("Incorrect");
   }
+}
+cookQuestion();
 
+function nicklebackQuestion(){
   let photoGraph = prompt("Do I like Nickelback").toLowerCase();
   //console.log(theFair + "," + alert + "False Hobbit");
   if (photoGraph == "yes" || photoGraph == "y") {
@@ -41,6 +52,9 @@ if (userName) {
   } else {
     alert("Mostly correct, but would you look at this photograph!");
   }
+}
+nicklebackQuestion();
+function jokesQuestion(){
   let funnyPage = prompt("Do you like Dad jokes?").toLowerCase();
   //console.log(funnyPage + "," + alert + "good, carry on");
   if (funnyPage == "yes" || funnyPage == "y") {
@@ -49,6 +63,8 @@ if (userName) {
   } else {
     alert("Please try again.");
   }
+}
+jokesQuestion();
   alert(userName + ", Thank you for your participation");
 
   let pickaNumber = 4;
